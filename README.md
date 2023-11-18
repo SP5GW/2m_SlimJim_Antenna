@@ -84,7 +84,7 @@ Cable has been purchesed on polish e-commerce site allegro from company called: 
 
 I was able to follow all dimensions from baseline design [3] except:
 
-    - location of feedline connetion (coax connection). In my case I put it 8.5cm from the bottom of 
+- location of feedline connetion (coax connection). In my case I put it 8.5cm from the bottom of 
     matching lambda/4 element instead of 10cm stated in baseline design.
 
     I have experimented with other locations as well. I have started with connecting coax 11cm from the 
@@ -97,34 +97,34 @@ I was able to follow all dimensions from baseline design [3] except:
     This is in fact how this type of antenna is tunned. Based on my experience reducing radiating or matching 
     elements length is not as effective when tuning VSWR as mvoing antenna feed point.
 
-    - I chosen 2cm gap in ribon cable wire connected to coax brain.
+- I chosen 2cm gap in ribon cable wire connected to coax brain.
 
-    - I used H-155 coax instead of RG-58 mentioned typically in case of this antenna design 
+- I used H-155 coax instead of RG-58 mentioned typically in case of this antenna design 
     common on the internet (no particular reason for this selection - I had it available). 
 
 ## Assembly Process
 
-    Step 1: Cut antenna cable to the length of 152cm (leave 1 cm at each end to allow soldering).
+Step 1: Cut antenna cable to the length of 152cm (leave 1 cm at each end to allow soldering).
 
-    Step 2: 49cm above the bottom of the antenna cut a gap of 2cm (remove only one of the 2 cable wires!).
+Step 2: 49cm above the bottom of the antenna cut a gap of 2cm (remove only one of the 2 cable wires!).
 
-    Step 3: Solder both wires at each antenna's end. 
+Step 3: Solder both wires at each antenna's end. 
 
-    Step 4: Expose both wires at the level of 10cm (+/- 2cm i.e. total of 4cm) 
-        Try to leave as much plastic between wires as possible to keep cable structural integrity
-        To stabilize the cable further try to solder exposed wires
+Step 4: Expose both wires at the level of 10cm (+/- 2cm i.e. total of 4cm) 
+    Try to leave as much plastic between wires as possible to keep cable structural integrity
+    To stabilize the cable further try to solder exposed wires
 
-    Step 5: Attach coax to twin-lead cable and test VSWR
-        Coax braid shall be connected to twin-lead wire with gap
-        Coax inner wire shall be connected to twin-lead wire without a gap
-        <p align="center">
-        <img src="./img/SP5GW_2m_SlimJim_feedpoint_position.jpg" width="300" height="400"/>
-        </p>
+Step 5: Attach coax to twin-lead cable and test VSWR
+    Coax braid shall be connected to twin-lead wire with gap
+    Coax inner wire shall be connected to twin-lead wire without a gap
+    <p align="center">
+    <img src="./img/SP5GW_2m_SlimJim_feedpoint_position.jpg" width="300" height="400"/>
+    </p>
 
-    Step 6: Fasten coax to twin-lead cable and protect open wires with heat shrink.
-        <p align="center">
-        <img src="./img/SP5GW_2m_SlimJim_Weather_Protection.jpg" width="300" height="400"/>
-        </p>
+Step 6: Fasten coax to twin-lead cable and protect open wires with heat shrink.
+    <p align="center">
+    <img src="./img/SP5GW_2m_SlimJim_Weather_Protection.jpg" width="300" height="400"/>
+    </p>
 
 ## Measurement results
 
