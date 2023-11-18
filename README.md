@@ -2,7 +2,7 @@
 Project based on work of N4UJW and M0UKD and Antenna Design published in 
 Polish Swiat Radio.
 
-## Theor'y of operation
+## Theory of Operation
 From [2]:
 "The Slim Jim, similar to the J-pole, is in fact a half wave end fed dipole, in the Slim Jim's 
 case, an end fed folded dipole. As with all folded dipoles, the currents in each leg are in phase, 
@@ -49,13 +49,15 @@ in case of waveform in twin-lead transmission line we need to assume that wave t
 
 $lambda=vf*(c/f)$
 
-where
+where:
 
 c - speed of light in free space = 299 792 458 m/s
 
 f - waveform frequency = 144 MHz (one can select exact centre frequency for his/her activity)
 
 c - velocity factor = 0.95 
+
+then:
 
 $lambda=0.95*(299 792 458/144 000 000)=1.98m$
 
@@ -65,13 +67,13 @@ $lambda/2=0.99mm$
 
 $lambda/4=0.49mm$
 
-## Baseline design
+## Baseline Design
 From [3]:
 <p align="center">
 <img src="./img/SwiatRadio_SlimJim_2m_Antenna.jpg" width="300" height="400"/>
 </p>
 
-## Baseline design minor modifications
+## Baseline Design Minor Modifications
 Sligthly modified design can be seen below:
 <p align="center">
 <img src="./img/SP5GW_2m_SlimJim_dimensions.png" width="400" height="700"/>
@@ -100,7 +102,7 @@ elements length is not as effective when tuning VSWR as mvoing antenna feed poin
 3) I used H-155 coax instead of RG-58 mentioned typically in case of this antenna design 
 common on the internet (no particular reason for this selection - I had it available). 
 
-## Assembly process
+## Assembly Process
 
 ### Step 1: Cut antenna cable to the length of 152cm (leave 1 cm at each end to allow soldering).
 
