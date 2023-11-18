@@ -107,7 +107,9 @@ I was able to follow all dimensions from baseline design [3] except:
 Step 1: Cut antenna cable to the length of 152cm (leave 1 cm at each end to allow soldering).
 
 Step 2: 49cm above the bottom of the antenna cut a gap of 2cm (remove only one of the 2 cable wires!).
-
+    <p align="center">
+    <img src="./img/SP5GW_2m_SlimJim_gap.jpg" width="300" height="400"/>
+    </p>
 Step 3: Solder both wires at each antenna's end. 
 
 Step 4: Expose both wires at the level of 10cm (+/- 2cm i.e. total of 4cm) 
@@ -138,7 +140,7 @@ Further VSWR optimization was possible, but abandoned since achieved results wer
 <img src="./simulations/vswr_2m_slimjim.png" width="600" height="600"/>
 </p>
 
-Red Marker set to 144MHz, Green Marker indicated 146MHz.
+Red Marker set to 144MHz, Blue Marker indicating 146MHz.
 
 <p align="center">
 <img src="./simulations/smithchart_2m_slimjim.png" width="600" height="600"/>
