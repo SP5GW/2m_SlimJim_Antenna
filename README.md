@@ -37,20 +37,29 @@ Applying velocity factor of 0.95 we arrive at exact length of lambda/2 radiator 
 lambda/4 used in based design:
 
 for waveform in free space:
+
 $c=lambda/T$
+
 $c=lambda*f$
+
 $lambda=c/f$
+
 in case of waveform in twin-lead transmission line we need to assume that wave travels with reduced speed 
 (by velocity factor):
+
 $lambda=vf*(c/f)$
+
 where
 c - speed of light in free space = 299 792 458 m/s
 f - waveform frequency = 144 MHz (one can select exact centre frequency for his/her activity)
 c - velocity factor = 0.95 
 
 $lambda=0.95*(299 792 458/144 000 000)=1.98m$
+
 hence:
+
 $lambda/2=0.99mm$
+
 $lambda/4=0.49mm$
 
 ## Baseline design
@@ -62,7 +71,7 @@ From [3]:
 ## Baseline design minor modifications
 Sligthly modified design can be seen below:
 <p align="center">
-<img src="./img/SP5GW_2m_SlimJim_dimensions.png" width="300" height="400"/>
+<img src="./img/SP5GW_2m_SlimJim_dimensions.png" width="400" height="500"/>
 </p>
 In my (SP5GW) case I have used 300ohm twin-lead SLX300 line manufactured by Slaska Fabryka Kabli S.A. 
 (today NKT Cables). 
