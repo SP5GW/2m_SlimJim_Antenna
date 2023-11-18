@@ -131,12 +131,17 @@ Step 6: Fasten coax to twin-lead cable and protect open wires with heat shrink.
 VSWR and Impedance measured with NanoVNA. Actual results did not differ significantly between different antenna
 locations. Care was taken in all cases to have antenna installed far from metal objects.
 
-<p align="center">
-<img src="./simulations/vswr_2m_slimjim.png" width="400" height="400"/>
-</p>
+Further VSWR optimization was possible, but abandoned since achieved results were already very good 
+(VSWR<1.4 for entire 2m band).
 
 <p align="center">
-<img src="./simulations/smithchart_2m_slimjim.png" width="400" height="400"/>
+<img src="./simulations/vswr_2m_slimjim.png" width="600" height="600"/>
+</p>
+
+Red Marker set to 144MHz, Green Marker indicated 146MHz.
+
+<p align="center">
+<img src="./simulations/smithchart_2m_slimjim.png" width="600" height="600"/>
 </p>
 
 ## Field Tests
