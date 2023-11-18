@@ -50,8 +50,11 @@ in case of waveform in twin-lead transmission line we need to assume that wave t
 $lambda=vf*(c/f)$
 
 where
+
 c - speed of light in free space = 299 792 458 m/s
+
 f - waveform frequency = 144 MHz (one can select exact centre frequency for his/her activity)
+
 c - velocity factor = 0.95 
 
 $lambda=0.95*(299 792 458/144 000 000)=1.98m$
@@ -71,13 +74,14 @@ From [3]:
 ## Baseline design minor modifications
 Sligthly modified design can be seen below:
 <p align="center">
-<img src="./img/SP5GW_2m_SlimJim_dimensions.png" width="400" height="500"/>
+<img src="./img/SP5GW_2m_SlimJim_dimensions.png" width="400" height="700"/>
 </p>
 In my (SP5GW) case I have used 300ohm twin-lead SLX300 line manufactured by Slaska Fabryka Kabli S.A. 
 (today NKT Cables). 
 Cable has been purchesed on polish e-commerce site allegro from company called: kableprzewody.
 
 I was able to follow all dimensions from baseline design [3] except:
+
 1) location of feedline connetion (coax connection). In my case I put it 8.5cm from the bottom of 
 matching lambda/4 element instead of 10cm stated in baseline design.
 
@@ -92,22 +96,23 @@ This is in fact how this type of antenna is tunned. Based on my experience reduc
 elements length is not as effective when tuning VSWR as mvoing antenna feed point.
 
 2) I chosen 2cm gap in ribon cable wire connected to coax brain.
+
 3) I used H-155 coax instead of RG-58 mentioned typically in case of this antenna design 
 common on the internet (no particular reason for this selection - I had it available). 
 
 ## Assembly process
 
-# Step 1: Cut antenna cable to the length of 152cm (leave 1 cm at each end to allow soldering).
+### Step 1: Cut antenna cable to the length of 152cm (leave 1 cm at each end to allow soldering).
 
-# Step 2: 49cm above the bottom of the antenna cut a gap of 2cm (remove only one of the 2 cable wires!).
+### Step 2: 49cm above the bottom of the antenna cut a gap of 2cm (remove only one of the 2 cable wires!).
 
-# Step 3: Solder both wires at each antenna's end. 
+### Step 3: Solder both wires at each antenna's end. 
 
-# Step 4: Expose both wires at the level of 10cm (+/- 2cm i.e. total of 4cm) 
+### Step 4: Expose both wires at the level of 10cm (+/- 2cm i.e. total of 4cm) 
 Try to leave as much plastic between wires as possible to keep cable structural integrity
 To stabilize the cable further try to solder exposed wires
 
-# Step 5: Attach coax to twin-lead cable and test VSWR
+### Step 5: Attach coax to twin-lead cable and test VSWR
 Coax braid shall be connected to twin-lead wire with gap
 Coax inner wire shall be connected to twin-lead wire without a gap
 <p align="center">
