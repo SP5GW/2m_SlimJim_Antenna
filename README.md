@@ -128,6 +128,17 @@ Step 6: Fasten coax to twin-lead cable and protect open wires with heat shrink.
 
 ## Measurement results
 
+VSWR and Impedance measured with NanoVNA. Actual results did not differ significantly between different antenna
+locations. Care was taken in all cases to have antenna installed far from metal objects.
+
+    <p align="center">
+    <img src="./simulations/vswr_2m_slimjim.png" width="400" height="400"/>
+    </p>
+
+    <p align="center">
+    <img src="./simulations/smithchart_2m_slimjim.png" width="400" height="400"/>
+    </p>
+
 ## Field Tests
 
 I have successfuly made several QSO's with local stations (located in less then 10km away). I have also 
